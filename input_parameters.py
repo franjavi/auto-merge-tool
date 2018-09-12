@@ -32,7 +32,9 @@ class InputParameters(object):
     # These credentials are the bitbucket credentials in order to create the pull requests
     user = ""
     password = ""
-    server = "bitbucketServer"
+    # "http://server:port"
+    server = "bitbucketServer" 
+    # The main bitbucket project ID. For example TA, what you can get from http://bitbucketServer/projects/TA/
     mainFork = "TA"
     # ====================================
 
